@@ -68,7 +68,7 @@ def criacao_vestibulares(request):
         'app/criacao_vestibulares.html',
         context_instance = RequestContext(request,
         {
-            'title':'Criação Vestibulares',
+            'title':'Criacao Vestibulares',
             'cursos': ['ADS' , 'SI', 'ADM'],
             'year':datetime.now().year,
         })
